@@ -58,7 +58,7 @@ Todos los comandos se ejecutan desde la raíz del proyecto, desde un terminal:
 
 # Guía del Código de la Página Principal en `src/pages/index.astro`
 
-Este archivo es la página principal del portafolio de Kevin Mamani, desarrollado con **Astro**. A continuación, se describe la estructura y función de cada parte del código para que puedas entender cómo está organizada la página y cómo puedes personalizarla según tus necesidades.
+Este archivo es la página principal del portafolio de Franklin Pezo, desarrollado con **Astro**. A continuación, se describe la estructura y función de cada parte del código para que puedas entender cómo está organizada la página y cómo puedes personalizarla según tus necesidades.
 
 ## Estructura del Archivo
 
@@ -264,7 +264,7 @@ El array `studies` contiene una serie de objetos, cada uno representando un estu
 export const studies = [
   {
     title: "Estudiante de Ingeniería de Sistemas e Informática",
-    corporation: "Universidad Continental",
+    corporation: "Universidad Continental Sede Cusco",
     date: "2022-Actualidad",
   },
   // Otros estudios...
