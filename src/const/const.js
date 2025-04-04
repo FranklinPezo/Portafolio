@@ -1,8 +1,8 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "Estudiante de la carrera de Ingenieria de Sistemas",
+    corporation: "Universidad Continental ",
+    date: "2023 – 2025",
   },
   {
     title: "Desarrollador Front-end React Js",
