@@ -5,9 +5,9 @@ export const studies = [
     date: "2023 – 2025",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Desarrollador de videojuegos",
+    corporation: "Universidad Continental",
+    date: "2024 – 2025",
   },
   {
     title: "Curso profesional de React Js",
