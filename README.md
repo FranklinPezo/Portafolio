@@ -92,7 +92,7 @@ Este componente probablemente contiene elementos de navegación como:
 ### Main
 Este componente es el núcleo del portafolio, y podría contener secciones como:
 
-- Una **breve descripción** sobre Franklin Pezo.
+- Una **breve descripción** sobre Franklin Pezo Montesinos.
 - **Detalles de sus proyectos**.
 - **Habilidades y experiencia**.
 
@@ -264,7 +264,7 @@ El array `studies` contiene una serie de objetos, cada uno representando un estu
 export const studies = [
   {
     title: "Estudiante de Ingeniería de Sistemas e Informática",
-    corporation: "Universidad Continental Sede Cusco",
+    corporation: "Universidad Continental Cusco",
     date: "2022-Actualidad",
   },
   // Otros estudios...
