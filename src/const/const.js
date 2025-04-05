@@ -1,7 +1,7 @@
 export const studies = [
   {
     title: "Estudiante de la carrera de Ingenieria de Sistemas",
-    corporation: "Universidad Continental ",
+    corporation: "Universidad Continental cusco ",
     date: "2023 – 2025",
   },
   {
