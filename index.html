@@ -2,83 +2,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Portafolio de Franklin Pezo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(90deg, #6a11cb, #2575fc);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header img {
-      width: 150px;
-      border-radius: 50%;
-      border: 4px solid white;
-      margin-top: 10px;
-    }
-    h1 {
-      margin-bottom: 5px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .proyecto {
-      background: #ffffff;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    footer {
-      background-color: #eee;
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Franklin Pezo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .profile {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 200px;
+            border-radius: 10px;
+            border: 5px solid #fff;
+        }
+        .profile h1 {
+            font-size: 2.5em;
+            margin-top: 15px;
+            color: #333;
+        }
+        .profile p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        .about {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about h2 {
+            color: #4CAF50;
+        }
+        .about p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
 
-  <header>
-    <h1>Franklin Pezo Montesinos</h1>
-    <p> | Estudiante de Ingeniería de Sistemas | Apasionado por la tecnología</p>
-   <img src="img/fotofranklin.png" alt="Foto de Franklin Pezo" style="width:200px; border-radius: 10px;">
-  </header>
+<header>
+    <h1>Portafolio de Franklin Pezo</h1>
+</header>
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>Soy una persona comprometida con mi desarrollo personal y profesional. Me apasionan las tecnologías, el análisis de datos y la sostenibilidad. Estoy estudiando ingeniería de sistemas y quiero aportar soluciones que mejoren la vida de las personas.</p>
-  </section>
+<div class="container">
 
-  <section>
-    <h2>Proyectos Destacados</h2>
-
-    <div class="proyecto">
-      <h3>🌱 Paneles Solares para el Desarrollo</h3>
-      <p>Diseño de póster informativo sobre la implementación de paneles solares en comunidades rurales, alineado con el ODS 7.</p>
+    <!-- Sección de la foto de perfil -->
+    <div class="profile">
+        <img src="img/fotofranklin.png" alt="Foto de Franklin Pezo">
+        <h1>Franklin Pezo</h1>
+        <p>Desarrollador Web | Diseñador Gráfico | Entusiasta de la Tecnología</p>
     </div>
 
-    <div class="proyecto">
-      <h3>📊 Análisis de Producción en Cusco</h3>
-      <p>Trabajo estadístico descriptivo sobre la producción de gas natural en la región La Convención - Cusco, entre 2023 y 2024.</p>
+    <!-- Sección Acerca de -->
+    <div class="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Franklin Pezo, un apasionado desarrollador web y diseñador gráfico con experiencia en la creación de sitios web modernos y atractivos. Mi objetivo es combinar la creatividad y la funcionalidad para construir soluciones digitales impactantes. Me encanta aprender y mejorar mis habilidades constantemente para ofrecer lo mejor en cada proyecto.</p>
     </div>
 
-  </section>
+</div>
 
-  <footer>
-    © 2025 Franklin Pezo | Contacto: franklinpezomontesinos@gmail.com
-  </footer>
+<footer>
+    <p>&copy; 2025 Franklin Pezo - Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
-
