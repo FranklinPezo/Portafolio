@@ -42,17 +42,17 @@
             font-size: 1.2em;
             color: #777;
         }
-        .about {
+        .about, .contact, .projects, .studies {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             margin-top: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .about h2 {
+        .about h2, .contact h2, .projects h2, .studies h2 {
             color: #4CAF50;
         }
-        .about p {
+        .about p, .contact p, .projects p, .studies p {
             line-height: 1.6;
         }
         footer {
@@ -61,6 +61,18 @@
             text-align: center;
             padding: 10px 0;
             margin-top: 30px;
+        }
+        .contact-info, .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li, .project-list li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .contact-info a, .project-list a {
+            color: #4CAF50;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -83,6 +95,33 @@
     <div class="about">
         <h2>Sobre Mí</h2>
         <p>Hola, soy Franklin Pezo, un apasionado desarrollador web y diseñador gráfico con experiencia en la creación de sitios web modernos y atractivos. Mi objetivo es combinar la creatividad y la funcionalidad para construir soluciones digitales impactantes. Me encanta aprender y mejorar mis habilidades constantemente para ofrecer lo mejor en cada proyecto.</p>
+    </div>
+
+    <!-- Sección de Contacto -->
+    <div class="contact">
+        <h2>Contacto</h2>
+        <ul class="contact-info">
+            <li><strong>Teléfono:</strong> <a href="tel:+51984524457">984524457</a></li>
+            <li><strong>Correo electrónico:</strong> <a href="mailto:franklinpezomontesino@gmail.com">franklinpezomontesino@gmail.com</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/franklin-yimy-pezo-montesinos-133708359" target="_blank">Ver mi perfil en LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <!-- Sección de Estudios -->
+    <div class="studies">
+        <h2>Estudios</h2>
+        <p><strong>Universidad Continental, Cusco</strong><br>
+        Actualmente cursando el 7mo ciclo de la carrera de <strong>Ingeniería de Sistemas</strong>.</p>
+    </div>
+
+    <!-- Sección de Proyectos -->
+    <div class="projects">
+        <h2>Proyectos</h2>
+        <ul class="project-list">
+            <li><strong>Proyecto 1:</strong> Desarrollo de una tienda en línea utilizando HTML, CSS y JavaScript. <a href="#" target="_blank">Ver más</a></li>
+            <li><strong>Proyecto 2:</strong> Rediseño de un sitio web para un cliente local. <a href="#" target="_blank">Ver más</a></li>
+            <li><strong>Proyecto 3:</strong> Aplicación web para gestión de tareas. <a href="#" target="_blank">Ver más</a></li>
+        </ul>
     </div>
 
 </div>
